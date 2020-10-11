@@ -1,0 +1,158 @@
+.carimg{
+  height: 3px;
+}
+.carousel {
+  background: black; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+.footer{
+  background-color: brown;
+}
+.navbar-dark{
+  background-color: black;
+}
+.jumbotron{
+  background-color: brown;
+}
+.medimg{
+  height: 150px;
+}
+.jumbopic{
+  height: 300px;
+}
+.content{
+	max-width:900px;
+	margin:auto;
+	padding:10px;
+}
+
+.wel{
+	position:absolute;
+	padding-left:400px;
+}
+.contact_btn {
+	background-color:#7c6782;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:20px;
+	border:1px solid #2c272d;
+	cursor:pointer;
+	transition:0.8s;
+	right:30px;
+	top:9vh;
+	position:absolute;
+	height:30px;
+	width:150px;
+	color:#a6d613;
+}
+		.welcome{
+			text-decoration:none;
+			padding:20px;
+			color:#797964;
+			padding-left:250px;
+		}
+		.mission{
+			width:350px;
+		}
+		.mission1{
+			text-decoration:none;
+			color:#797964;
+			font-size:20px;
+			font-family:Arial;
+		}
+		.mission2{
+			color:#797964;
+			font-size:16px;
+			font-family:Courier;
+		}
+		.summary{
+			background-color:#cdebf9;
+		}
+		ul{
+			list-style:none;
+		}
+		.list{
+			padding-top:20px;
+			padding-left:30px;
+		}
+		.summary1{
+			font-family:georgia;
+			font-size:30px;
+		}
+		.summary2{
+			font-family:georgia;
+			font-size:35px;
+			font-weight:bolder;
+		}
+		.col{
+			float:left;
+			width:50%;
+			padding:10px;
+		}
+		.ro:after{
+			content:"";
+			display:table;
+			clear:both;
+		}
+		.year{
+			text-decoration:underline wavy blue;
+			font-family:elephant;
+			font-size:20px;
+		}
+		.desc{
+			font-family:"lucida sans";
+			padding-bottom:25px;
+		}
+		table{
+			border-collapse: collapse;
+			width: 70%;
+			text-align: center;
+			font-size: 18px;
+		}
+		th{
+			background-color: dodgerblue;
+			color: white;
+		}
+		th,td{
+
+			padding: 15px;
+		}
+		.myLogo {
+          display: inline;
+          float: left;
+          margin-left: 10px;
+          margin-top: 30px;
+		  width:100px;
+		  height:100px;
+        }
+*{box-sizing:border-box;}
+.row{
+	display:flex;
+}
+.column{
+	flex:33.33%;
+	padding:5px;
+}
+.btn1{
+	background-color:#ff9400;
+	margin-left:290px;
+	height:35px;
+	width:150px;
+	text-decoration:none;
+}
+.btn2{
+	background-color:#2cff00;
+	height:35px;
+	width:150px;
+}

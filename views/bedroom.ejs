@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./public/stylesheets/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .row {
+
+            grid-column-gap: 150px;
+            grid-row-gap: 50px;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+    <title>Taste Of Decor</title>
+</head>
+
+<body style="background-image: url(./public/images/back.jpg);" class="text-white">
+
+    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item "><a class="nav-link" href="/home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/aboutus">About Us</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="/products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron  ">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-6">
+                    <h1>Taste of Decor</h1>
+                    <h5 class="jumbotext text-justify">You design it, we create it</h5>
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <img src="./public/images/jumbopic.png" class="img-fluid jumbopic" style="height: 150px; width: 150px;">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <input type="text" name="" id="myInput" placeholder="eg.Living Room" onkeyup="search()">
+        <ul id="myUL" style="visibility: hidden;">
+            <li><a href="/living" onload="search()"><button>Living Room</button></a></li>
+            <li><a href="/kids" onload="search()"><button>Kids Section</button></a></li>
+            <li><a href="/bedroom" onload="search()"><button>Bed Room</button></a></li>
+            <li><a href="/kitchen" onload="search()"><button>Kitchen</button></a></li>
+            <li><a href="/bathroom" onload="search()"><button>Bath Room</button></a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="card text-dark" style="width:400px">
+                <img class="card-img-top" src="./public/images/bedroom/bed.png" alt="sofa image"
+                    style="width: 100%; height: 350px;">
+                <div class="card-body">
+                    <h4 class="card-title">BED</h4>
+                    <p class="card-text"><b>Sleepwell Cocoon Two-As-One Customizable Feel Mattress with Free Pillow
+                            (72x48x8)</b>
+                        <br><b>Price: </b><del>35,000</del>&nbsp&nbsp<b>25,000</b>&nbsp<span
+                            style="color:darkblue"><b>(10% OFF)</b></span>
+                    </p>
+                    <a href="/contactus" class="btn btn-primary">Place Order</a>
+                </div>
+            </div>
+
+
+            <div class="card text-dark" style="width:400px">
+                <img class="card-img-top" src="./public/images/bedroom/wardrobes.png" alt="sofa image"
+                    style="width:100%; height: 350px;">
+                <div class="card-body">
+                    <h4 class="card-title">WARDROBES</h4>
+                    <p class="card-text"><b>Kosmo Optima 3 Door Wardrobe in Walnut Finish</b>
+                        <br><b>Price: </b><del>30,000</del>&nbsp&nbsp<b>20,000</b>&nbsp<span
+                            style="color:darkblue"><b>(10% OFF)</b></span>
+                    </p>
+                    <a href="/contactus" class="btn btn-primary">Place Order</a>
+                </div>
+            </div>
+
+
+            <div class="card text-dark" style="width:400px">
+                <img class="card-img-top" src="./public/images/bedroom/bed lamp.png" alt="sofa image"
+                    style="width: 100%; height: 350px;">
+                <div class="card-body">
+                    <h4 class="card-title">BED LAMP</h4>
+                    <p class="card-text"><b>White Fabric Shade Table Lamp with White Base</b>
+                        <br><b>Price: </b><del>15,000</del>&nbsp&nbsp<b>10,000</b>&nbsp<span
+                            style="color:darkblue"><b>(5% OFF)</b></span>
+                    </p>
+                    <a href="/contactus" class="btn btn-primary">Place Order</a>
+                </div>
+            </div>
+
+
+            <div class="card text-dark" style="width:400px">
+                <img class="card-img-top" src="./public/images/bedroom/vanity.png" alt="sofa image"
+                    style="width: 100%; height: 350px;">
+                <div class="card-body">
+                    <h4 class="card-title">VANITY</h4>
+                    <p class="card-text"><b>Vintage Vanity cum Console Table in Coffee Brown Genuine Leather</b>
+                        <br><b>Price: </b><del>40,000</del>&nbsp&nbsp<b>30,000</b>&nbsp<span
+                            style="color:darkblue"><b>(10% OFF)</b></span>
+                    </p>
+                    <a href="/contactus" class="btn btn-primary">Place Order</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function search() {
+            let text = document.getElementById('myInput').value.toUpperCase();
+            let ul = document.getElementById('myUL');
+            let li = ul.getElementsByTagName('li');
+            for (var i = 0; i < li.length; i++) {
+                let a = li[i].getElementsByTagName('a')[0];
+                let textvalue = a.textContent || a.innerHTML;
+                if (textvalue.toUpperCase().indexOf(text) > -1) {
+                    li[i].style.visibility = "visible";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+    <br /> <br />
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="col-4 offset-1 col-sm-2  ">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/aboutus">About Us</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li>
+                    <li><a href="/contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-center  ">
+            <div class="col-auto">
+                <p>© Copyright 2020 Taste of Decor</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="./public/javascripts/scripts.js"></script>
+</body>
+
+</html>
